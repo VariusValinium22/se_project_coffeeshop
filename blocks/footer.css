@@ -6,6 +6,8 @@
 
 .footer__content {
   display: flex;
+  margin-right: auto;
+  justify-content: space-between;
 }
 
 .footer__logo {
@@ -15,14 +17,10 @@
 
 .footer__social-heading {
   margin: 0 0 20px;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
-}
-
-.footer__column_content {
-  margin-left: auto;
 }
 
 .footer__list {
@@ -42,7 +40,7 @@
 .footer__social-link {
   color: white;
   text-decoration: none;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
   transition: color 1s ease-in;
@@ -60,7 +58,7 @@
 
 .footer__copyright {
   margin: 108px 0 0;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
 }
