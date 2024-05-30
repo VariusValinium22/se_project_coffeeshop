@@ -1,5 +1,5 @@
 .menu {
-  background-color: #fff;
+  background-color: #ffffff;
   padding: 100px 0 100px;
   background-image: url(../images/background_menu.svg);
   background-repeat: no-repeat;
@@ -9,8 +9,8 @@
 
 .menu__title {
   text-align: center;
-  margin: 0 0 24px;
-
+  margin: 0 auto 24px;
+  max-width: 780px;
   font-family: "Inter", Arial, sans-serif;
   font-weight: 500;
   font-size: 44px;
@@ -19,7 +19,8 @@
 
 .menu__subtitle {
   text-align: center;
-  margin: 0 0 100px;
+  margin: 0 auto 100px;
+  max-width: 780px;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;

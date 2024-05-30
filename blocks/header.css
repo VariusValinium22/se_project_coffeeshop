@@ -1,14 +1,14 @@
 .header {
   display: flex;
   flex-direction: column;
+  position: relative;
   height: 100vh;
   min-height: 720px;
   max-height: 800px;
   padding: 30px 80px 40px;
-  position: relative;
   box-sizing: border-box;
   background-color: #ffffff;
-  background-image: url(/images/background_header.svg);
+  background-image: url(../images/background_header.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -37,9 +37,11 @@
 }
 
 .header__description {
+  max-width: 683px;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
-  font-family: "Noto Serif", "Times New Roman", serif;
+  margin: 0;
 }
 
 .header__image {
@@ -55,21 +57,21 @@
   margin-top: auto;
   width: 100%;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: space-between;
   box-sizing: border-box;
+}
+
+/* .header__list-item {
+  color: #6f6f6f;
+} */
+
+.header__paragraph {
+  margin: 0;
+  color: #838383;
   font-family: "Inter", Arial, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  color: #838383;
-}
-
-.header__list-item {
-  color: #6f6f6f;
-}
-
-.header__address {
-  margin: 0;
   color: #838383;
 }
