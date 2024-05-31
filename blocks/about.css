@@ -53,7 +53,7 @@
   z-index: -1;
 }
 
-.about__circle--pulsate {
+.about__circle_animation_blurred {
   animation: pulsate 1.3s ease-in-out infinite;
 }
 

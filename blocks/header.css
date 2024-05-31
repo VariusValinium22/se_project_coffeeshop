@@ -12,11 +12,10 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  z-index: -1;
+  z-index: 1;
 }
 
 .header__title {
-  font-weight: 500;
   max-width: 729px;
   margin-top: 183px;
   margin-bottom: 28px;
@@ -68,7 +67,6 @@
 
 .header__paragraph {
   margin: 0;
-  color: #838383;
   font-family: "Inter", Arial, sans-serif;
   font-weight: 500;
   font-size: 16px;

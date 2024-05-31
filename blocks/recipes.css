@@ -27,8 +27,6 @@
   font-weight: 400;
   margin: 0 0 80px;
   color: #ffffff;
-  max-width: 100%;
-  word-wrap: break-word;
 }
 
 .recipes__videos {
@@ -38,6 +36,7 @@
   border-style: none;
   gap: 40px;
   margin: 0;
+  padding-left: 0;
 }
 
 .recipes__video-container {
@@ -51,6 +50,7 @@
   width: 480px;
   height: 273px;
   margin: 0px;
+  border: 0;
 }
 
 .recipes__video-caption {
